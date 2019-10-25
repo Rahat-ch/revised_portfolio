@@ -1,13 +1,13 @@
 import React from "react"
 import NavBar from "../components/navbar/"
 
-const indexPage = () => {
+const eventPage = () => {
   return (
     <div>
       <NavBar />
-      This is Home
+      This is Events
     </div>
   )
 }
 
-export default indexPage
+export default eventPage

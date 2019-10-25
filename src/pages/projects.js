@@ -1,13 +1,13 @@
 import React from "react"
 import NavBar from "../components/navbar/"
 
-const indexPage = () => {
+const projectPage = () => {
   return (
     <div>
       <NavBar />
-      This is Home
+      This is Projects
     </div>
   )
 }
 
-export default indexPage
+export default projectPage
