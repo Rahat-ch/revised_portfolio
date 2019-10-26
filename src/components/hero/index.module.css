@@ -1,0 +1,11 @@
+.heroInnerWrapper {
+  display: flex;
+}
+
+.horizontal {
+  color: #ffffff;
+  width: 80px;
+  margin-top: 125px;
+  margin-left: 5px;
+  margin-right: 0;
+}

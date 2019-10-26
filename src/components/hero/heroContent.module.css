@@ -1,0 +1,25 @@
+.contentWrapper {
+  margin-top: 25px;
+  margin-left: 22px;
+}
+
+.contentLine1 {
+  color: #ffffff;
+  font-size: 68px;
+  margin-bottom: 0;
+}
+
+.contentLine2 {
+  color: #5cdb95;
+  font-size: 159px;
+  margin-top: -30px;
+  margin-left: -10px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.contentLine3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 0;
+}
