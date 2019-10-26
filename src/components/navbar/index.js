@@ -11,8 +11,10 @@ const navData = [
 
 const navbar = () => {
   const isMenuItemPath = itemPath => {
-    if (window.location.pathname === itemPath) {
-      return true
+    if (window !== undefined) {
+      if (window.location.pathname === itemPath) {
+        return true
+      }
     }
   }
   return (
