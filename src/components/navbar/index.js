@@ -11,7 +11,7 @@ const navData = [
 
 const navbar = () => {
   const isMenuItemPath = itemPath => {
-    if (window !== undefined) {
+    if (typeof window !== "undefined") {
       if (window.location.pathname === itemPath) {
         return true
       }
