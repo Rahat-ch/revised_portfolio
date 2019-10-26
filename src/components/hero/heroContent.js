@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./heroContent.module.css"
+import HeroFooter from "./heroFooter"
 
 const HeroContent = () => {
   return (
@@ -10,6 +11,7 @@ const HeroContent = () => {
         WEB&nbsp;DEVELOPER,&nbsp; SPEAKER,&nbsp; STREAMER,&nbsp; RAPPER,&nbsp;
         POKÉMON&nbsp;MASTER
       </p>
+      <HeroFooter />
     </div>
   )
 }

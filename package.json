@@ -16,7 +16,9 @@
     "classnames": "^2.2.6",
     "gatsby": "^2.16.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-icons": "^3.8.0",
+    "uninstall": "0.0.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
