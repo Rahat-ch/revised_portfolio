@@ -1,6 +1,7 @@
 .contentWrapper {
   margin-top: 100px;
   margin-left: 22px;
+  position: relative;
 }
 
 .contentLine1 {
@@ -16,10 +17,12 @@
   margin-left: -10px;
   margin-bottom: 0;
   font-weight: bolder;
+  z-index: 1;
 }
 
 .contentLine3 {
   color: #ffffff;
   font-size: 18px;
   margin-top: 0;
+  z-index: 1;
 }

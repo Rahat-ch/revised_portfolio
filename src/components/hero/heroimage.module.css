@@ -6,3 +6,11 @@
   margin-left: 212px;
   margin-top: 150px;
 }
+
+@media (max-width: 769px) {
+  .me {
+    margin-left: 50px;
+    width: 140px;
+    height: 140px;
+  }
+}

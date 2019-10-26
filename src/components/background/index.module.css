@@ -1,0 +1,26 @@
+.backgroundWrapper {
+  position: absolute;
+  transform: rotate(-45deg);
+  margin-bottom: 500px;
+  height: 1000px;
+  top: 100px;
+  left: 200px;
+  z-index: -5;
+}
+
+.hr1 {
+  border: 2px dotted #ffffff;
+  opacity: 0.05;
+  margin-bottom: 20px;
+}
+
+.hr2 {
+  width: 602px;
+  height: 491px;
+  border-top: 2px solid #ffffff;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  opacity: 0.15;
+  margin-bottom: 500px;
+}
