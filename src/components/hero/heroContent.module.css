@@ -30,9 +30,13 @@
 @media (max-width: 425px) {
   .contentWrapper {
     margin-top: 0;
+    text-align: center;
+    margin-left: 75px;
   }
   .contentLine1 {
     font-size: 34px;
+    margin-bottom: 10px;
+    margin-right: 17px;
   }
   .contentLine2 {
     font-size: 80px;

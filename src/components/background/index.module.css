@@ -24,3 +24,10 @@
   opacity: 0.15;
   margin-bottom: 500px;
 }
+
+@media (max-width: 425px) {
+  .backgroundWrapper {
+    top: -100px;
+    left: 175px;
+  }
+}

@@ -66,10 +66,11 @@ li {
   }
 
   .logo {
-    padding-left: 50px;
+    padding-left: 25px;
   }
 
   .navWrapper {
     padding-right: 15px;
+    padding-left: 20px;
   }
 }
