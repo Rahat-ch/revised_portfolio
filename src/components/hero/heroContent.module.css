@@ -26,3 +26,18 @@
   margin-top: 0;
   z-index: 1;
 }
+
+@media (max-width: 425px) {
+  .contentWrapper {
+    margin-top: 0;
+  }
+  .contentLine1 {
+    font-size: 34px;
+  }
+  .contentLine2 {
+    font-size: 80px;
+  }
+  .contentLine3 {
+    font-size: 9px;
+  }
+}

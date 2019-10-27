@@ -13,3 +13,12 @@
   margin-left: 5px;
   margin-right: 0;
 }
+
+@media (max-width: 425px) {
+  .heroInnerWrapper {
+    display: inline-block;
+  }
+  .horizontal {
+    display: none;
+  }
+}

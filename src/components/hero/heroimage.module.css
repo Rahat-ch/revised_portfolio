@@ -7,10 +7,24 @@
   margin-top: 150px;
 }
 
+@media (max-width: 1024px) {
+  .me {
+    margin-left: 50px;
+  }
+}
+
 @media (max-width: 769px) {
   .me {
     margin-left: 50px;
     width: 140px;
     height: 140px;
+  }
+}
+
+@media (max-width: 425px) {
+  .me {
+    margin-left: 75px;
+    width: 280px;
+    height: 280px;
   }
 }
