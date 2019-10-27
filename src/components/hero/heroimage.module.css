@@ -6,13 +6,11 @@
   margin: 150px 0 0 212px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .me {
-    width: 240px;
-    height: 240px;
     margin-left: 10px;
   }
-}
+} */
 
 @media (max-width: 769px) {
   .me {
@@ -22,9 +20,15 @@
 
 @media (max-width: 425px) {
   .me {
-    margin-left: 75px;
+    margin-left: 115px;
     width: 280px;
     height: 280px;
+  }
+}
+
+@media (max-width: 414px) {
+  .me {
+    margin-left: 75px;
   }
 }
 

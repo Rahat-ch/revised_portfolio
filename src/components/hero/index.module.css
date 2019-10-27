@@ -12,6 +12,15 @@
   margin-right: 0;
 }
 
+/* @media (max-width: 769px) {
+  .heroContainer {
+    display: inline-block;
+  }
+  .horizontal {
+    display: none;
+  }
+} */
+
 @media (max-width: 425px) {
   .heroContainer {
     display: inline-block;

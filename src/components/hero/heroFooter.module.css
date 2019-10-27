@@ -24,3 +24,21 @@
 .iconLink {
   color: inherit;
 }
+
+@media (max-width: 425px) {
+  .footerWrapper {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footerWrapper {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footerWrapper {
+    margin-left: 0;
+  }
+}

@@ -31,13 +31,22 @@
   .contentWrapper {
     width: 100%;
   }
+  .contentLine1 {
+    font-size: 51px;
+  }
+  .contentLine2 {
+    font-size: 120px;
+  }
+  .contentLine3 {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 425px) {
   .contentWrapper {
     margin-top: 0;
     text-align: center;
-    margin-left: 75px;
+    margin-left: 50px;
   }
   .contentLine1 {
     font-size: 34px;
@@ -52,9 +61,15 @@
   }
 }
 
+@media (max-width: 414px) {
+  .contentWrapper {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 375px) {
   .contentWrapper {
-    margin-left: 45px;
+    margin-left: 10px;
   }
 }
 

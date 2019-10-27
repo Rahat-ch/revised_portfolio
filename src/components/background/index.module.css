@@ -22,6 +22,13 @@
   opacity: 0.15;
 }
 
+@media (max-width: 769px) {
+  .backgroundWrapper {
+    top: 150px;
+    right: 50px;
+  }
+}
+
 @media (max-width: 425px) {
   .backgroundWrapper {
     display: none;
