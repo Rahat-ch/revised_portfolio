@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
   padding-top: 31px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  background: #1e2225;
+  width: 100%;
 }
 
 .navWrapper {
@@ -72,5 +78,19 @@ li {
   .navWrapper {
     padding-right: 15px;
     padding-left: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navItem,
+  .navItemCurrent {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navItem,
+  .navItemCurrent {
+    font-size: 10px;
   }
 }

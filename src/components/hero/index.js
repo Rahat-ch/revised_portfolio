@@ -6,12 +6,9 @@ import HeroContent from "./heroContent"
 const Hero = () => {
   return (
     <div className={styles.heroContainer}>
-      <div className={styles.heroInnerWrapper}>
-        <HeroImage />
-        <hr className={styles.horizontal} />
-        <HeroContent />
-      </div>
-      <div className={styles.background}></div>
+      <HeroImage />
+      <hr className={styles.horizontal} />
+      <HeroContent />
     </div>
   )
 }

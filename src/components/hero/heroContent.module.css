@@ -27,6 +27,12 @@
   z-index: 1;
 }
 
+@media (max-width: 769px) {
+  .contentWrapper {
+    width: 100%;
+  }
+}
+
 @media (max-width: 425px) {
   .contentWrapper {
     margin-top: 0;
@@ -43,5 +49,17 @@
   }
   .contentLine3 {
     font-size: 9px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contentWrapper {
+    margin-left: 45px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contentWrapper {
+    margin-left: 10px;
   }
 }

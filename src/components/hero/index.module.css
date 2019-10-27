@@ -1,9 +1,7 @@
 .heroContainer {
-  margin-top: -75px;
-}
-
-.heroInnerWrapper {
+  margin-top: 10px;
   display: flex;
+  width: 100%;
 }
 
 .horizontal {
@@ -15,7 +13,7 @@
 }
 
 @media (max-width: 425px) {
-  .heroInnerWrapper {
+  .heroContainer {
     display: inline-block;
   }
   .horizontal {

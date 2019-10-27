@@ -1,10 +1,8 @@
 .backgroundWrapper {
   position: absolute;
   transform: rotate(-45deg);
-  margin-bottom: 500px;
-  height: 1000px;
-  top: 100px;
-  left: 200px;
+  top: 217px;
+  right: 100px;
   z-index: -5;
 }
 
@@ -16,18 +14,16 @@
 
 .hr2 {
   width: 602px;
-  height: 491px;
+  /* height: 491px; */
   border-top: 2px solid #ffffff;
   border-bottom: none;
   border-right: none;
   border-left: none;
   opacity: 0.15;
-  margin-bottom: 500px;
 }
 
 @media (max-width: 425px) {
   .backgroundWrapper {
-    top: -100px;
-    left: 175px;
+    display: none;
   }
 }

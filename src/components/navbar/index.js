@@ -22,31 +22,26 @@ const navbar = () => {
       <span className={styles.logo}>
         R<span className={styles.logoDot}>.</span>
       </span>
-      <ul className={styles.navWrapper}>
+      <div className={styles.navWrapper}>
         {navData.map(item => (
-          <li key={item[0]}>
-            {isMenuItemPath(item[1])}
-            <Link
-              className={classNames({
-                [styles.navItem]: !isMenuItemPath(item[1]),
-                [styles.navItemCurrent]: isMenuItemPath(item[1]),
-              })}
-              to={item[1]}
-            >
-              {item[0]}
-            </Link>
-          </li>
-        ))}
-        <li>
-          <a
-            className={styles.navItem}
-            href="https://rahatcodes.com"
-            target="_blank"
+          <Link
+            className={classNames({
+              [styles.navItem]: !isMenuItemPath(item[1]),
+              [styles.navItemCurrent]: isMenuItemPath(item[1]),
+            })}
+            to={item[1]}
           >
-            Stream
-          </a>
-        </li>
-      </ul>
+            {item[0]}
+          </Link>
+        ))}
+        <a
+          className={styles.navItem}
+          href="https://rahatcodes.com"
+          target="_blank"
+        >
+          Stream
+        </a>
+      </div>
     </nav>
   )
 }
