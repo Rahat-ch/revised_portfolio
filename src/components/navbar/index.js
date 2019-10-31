@@ -38,6 +38,7 @@ const navbar = () => {
           className={styles.navItem}
           href="https://rahatcodes.com"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Stream
         </a>

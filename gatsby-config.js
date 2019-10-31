@@ -1,7 +1,41 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const dotenv = require("dotenv")
+dotenv.config()
 
-module.exports = {}
+module.exports = {
+  siteMetadata: {
+    title: "Rahat Chowdhury Portfolio",
+    author: "Rahat Chowdhury",
+    description: "A web development portfolio created with Gatsby.js",
+  },
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "rahat-chowdhury-portfolio",
+        short_name: "rahat_portfolio",
+        start_url: "/",
+        background_color: "#1E2225",
+        theme_color: "#1E2225",
+        display: "minimal-ui",
+        icon: "src/images/portfoliologo.png", // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `j4z60d1vy7n4`,
+        accessToken: `${process.env.ACCESSTOKEN}`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "./data/",
+      },
+    },
+  ],
+}

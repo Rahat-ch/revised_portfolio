@@ -70,6 +70,9 @@ li {
   .navItemCurrent {
     margin-right: 20px;
   }
+  /* .navWrapper {
+    justify-content: unset;
+  } */
 
   .logo {
     padding-left: 25px;
@@ -95,5 +98,8 @@ li {
   .navItem,
   .navItemCurrent {
     font-size: 10px;
+  }
+  .navWrapper {
+    justify-content: unset;
   }
 }

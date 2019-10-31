@@ -1,0 +1,75 @@
+.react {
+  width: 48px;
+  height: 48px;
+}
+
+.circlContainer {
+  position: relative;
+  width: 12em;
+  height: 12em;
+  padding: 2.8em;
+  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  /* border: dashed 1px; */
+  border-radius: 50%;
+  /* margin: 1.75em auto 0; */
+  margin-top: 200px;
+  margin-left: 75px;
+}
+
+.circlContainer img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4em;
+  height: 4em;
+  margin: -2em;
+}
+
+.git {
+  transform: translate(6em);
+} /* 12em = half the width of the wrapper */
+.graphql {
+  transform: rotate(45deg) translate(6em) rotate(-45deg);
+}
+.css {
+  transform: rotate(135deg) translate(6em) rotate(-135deg);
+}
+.nodejs {
+  transform: translate(-6em);
+}
+.react {
+  transform: rotate(225deg) translate(6em) rotate(-225deg);
+}
+.mongo {
+  transform: rotate(315deg) translate(6em) rotate(-315deg);
+}
+
+.html {
+  transform: rotate(270deg) translate(6em) rotate(-270deg);
+}
+
+.postgres {
+  transform: rotate(90deg) translate(6em) rotate(-90deg);
+}
+
+@media (max-width: 769px) {
+  .circlContainer {
+    margin-left: 50px;
+    margin-top: 225px;
+  }
+}
+
+@media (max-width: 425px) {
+  .circlContainer {
+    margin-right: 0;
+    margin-left: 135px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .circlContainer {
+    margin-left: 105px;
+  }
+}

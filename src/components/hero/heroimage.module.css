@@ -20,9 +20,10 @@
 
 @media (max-width: 425px) {
   .me {
-    margin-left: 115px;
+    margin-left: 75px;
     width: 280px;
     height: 280px;
+    margin-top: 85px;
   }
 }
 

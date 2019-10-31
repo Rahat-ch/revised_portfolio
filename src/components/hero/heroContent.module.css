@@ -35,7 +35,7 @@
     font-size: 51px;
   }
   .contentLine2 {
-    font-size: 120px;
+    font-size: 115px;
   }
   .contentLine3 {
     font-size: 13px;
@@ -46,7 +46,7 @@
   .contentWrapper {
     margin-top: 0;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 15px;
   }
   .contentLine1 {
     font-size: 34px;
@@ -69,12 +69,25 @@
 
 @media (max-width: 375px) {
   .contentWrapper {
-    margin-left: 10px;
+    margin-left: 5px;
+    width: 360px;
+    overflow-x: hidden;
   }
 }
 
 @media (max-width: 320px) {
   .contentWrapper {
-    margin-left: 10px;
+    margin-left: 5px;
+  }
+  .contentLine1 {
+    font-size: 26px;
+    margin-right: 40px;
+  }
+  .contentLine2 {
+    font-size: 60px;
+    margin-right: 10px;
+  }
+  .contentLine3 {
+    margin-right: 35px;
   }
 }
