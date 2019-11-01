@@ -53,6 +53,22 @@
   transform: rotate(90deg) translate(6em) rotate(-90deg);
 }
 
+.iconCredit {
+  margin-top: 250px;
+  margin-left: 40px;
+  color: #777b80;
+}
+
+.creditLink {
+  color: #777b80;
+  text-decoration: none;
+}
+
+.creditLink:hover {
+  color: #5cdb95;
+  cursor: pointer;
+}
+
 @media (max-width: 769px) {
   .circlContainer {
     margin-left: 50px;
@@ -65,6 +81,9 @@
     margin-right: 0;
     margin-left: 135px;
     margin-top: 0;
+  }
+  .iconCredit {
+    margin-left: 10px;
   }
 }
 

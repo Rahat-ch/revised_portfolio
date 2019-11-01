@@ -25,13 +25,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `j4z60d1vy7n4`,
-        accessToken: `${process.env.ACCESSTOKEN}`,
-      },
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: "./data/",

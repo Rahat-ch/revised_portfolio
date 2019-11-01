@@ -14,6 +14,17 @@ const Skills = () => {
           className={styles[icon.name]}
         />
       ))}
+      <div className={styles.iconCredit}>
+        Icons by{" "}
+        <a
+          className={styles.creditLink}
+          href="https://icons8.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Icons8
+        </a>
+      </div>
       <Background />
     </div>
   )
