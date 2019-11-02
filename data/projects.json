@@ -1,0 +1,35 @@
+[
+  {
+    "name": "LitLab",
+    "image": "./projectimages/litlab.png",
+    "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
+    "username": "anotherdemo@gmail.com",
+    "password": "blahblah",
+    "tech": ["Handlebars", "CSS", "JQuery", "NodeJS", "MySQL", "PassportJS"],
+    "repo": "https://github.com/Rahat-ch/LitLab",
+    "demo": "https://litlab.herokuapp.com/",
+    "align": "right"
+  },
+  {
+    "name": "Remember The Mon",
+    "image": "./projectimages/pokeball.png",
+    "description": "A memory game built with React. This is based on the popular Pokemon franchise and primarily revolves around changing state.",
+    "username": "",
+    "password": "",
+    "tech": ["React", "CSS"],
+    "repo": "https://github.com/Rahat-ch/rememberthemon",
+    "demo": "https://mysterious-dawn-93259.herokuapp.com/",
+    "align": "left"
+  },
+  {
+    "name": "LitLab",
+    "image": "./projectimages/litlab.png",
+    "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
+    "username": "anotherdemo@gmail.com",
+    "password": "blahblah",
+    "tech": ["Handlebars", "CSS", "JQuery", "NodeJS", "MySQL", "PassportJS"],
+    "repo": "https://github.com/Rahat-ch/LitLab",
+    "demo": "https://litlab.herokuapp.com/",
+    "align": "right"
+  }
+]

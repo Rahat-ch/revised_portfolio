@@ -1,0 +1,36 @@
+.backgroundWrapper {
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 181px;
+  left: 471px;
+  z-index: -5;
+}
+
+.hr1 {
+  border: 2px dotted #ffffff;
+  opacity: 0.05;
+  margin-bottom: 20px;
+}
+
+.hr2 {
+  width: 622px;
+  /* height: 491px; */
+  border-top: 2px solid #ffffff;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  opacity: 0.15;
+}
+
+@media (max-width: 769px) {
+  .backgroundWrapper {
+    top: 150px;
+    right: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .backgroundWrapper {
+    display: none;
+  }
+}
