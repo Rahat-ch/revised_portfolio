@@ -1,6 +1,7 @@
 [
   {
     "name": "LitLab",
+    "slug": "/projects/litlab",
     "image": "./projectimages/litlab.png",
     "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
     "username": "anotherdemo@gmail.com",
@@ -12,6 +13,7 @@
   },
   {
     "name": "Remember The Mon",
+    "slug": "/projects/rememberthemon",
     "image": "./projectimages/pokeball.png",
     "description": "A memory game built with React. This is based on the popular Pokemon franchise and primarily revolves around changing state.",
     "username": "",
@@ -23,6 +25,7 @@
   },
   {
     "name": "LitLab",
+    "slug": "/projects/litlab2",
     "image": "./projectimages/litlab.png",
     "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
     "username": "anotherdemo@gmail.com",

@@ -1,0 +1,71 @@
+.projectOuterContainter {
+  margin-top: 75px;
+  margin-left: 139px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.projectName {
+  color: #5cdb95;
+}
+
+.horizontalHeader {
+  width: 80px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.headerWrapper {
+  display: flex;
+}
+
+.blurbWrapper {
+  width: 394px;
+  color: #777b80;
+}
+
+.techHeder {
+  color: #5cdb95;
+}
+
+.allTech {
+  list-style: none;
+  padding-left: 0;
+}
+
+.singleTech {
+  margin-bottom: 10px;
+}
+
+.singleTech::before {
+  content: url("../../images/arrow.png");
+  padding-right: 8px;
+}
+
+.projectBottomHr {
+  width: 80px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.demoWrapper,
+.repoWrapper {
+  display: flex;
+  margin-left: 0px;
+}
+
+.projectLinks {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 28px;
+}
+
+.projectLinks:hover {
+  color: #5cdb95;
+}
+
+.projectImage {
+  width: 528px;
+  margin-left: 66px;
+}
