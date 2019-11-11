@@ -1,0 +1,17 @@
+.headlineWrapper {
+  color: #5cdb95;
+  display: flex;
+  margin-top: 128px;
+}
+
+.horizontal {
+  width: 90px;
+  margin-left: 139px;
+  margin-right: 25px;
+  border-color: #5cdb95;
+}
+
+.title {
+  font-size: 15px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Code Camp NYC",
+    "date": "October 12 2019",
+    "talk": "Hip Hop Code and Mental Health"
+  },
+  {
+    "name": "NYC Bootcampers Anonymous",
+    "date": "July 9 2019",
+    "talk": "Intro to GraphQL"
+  },
+  {
+    "name": "VueNYC #22",
+    "date": "May 28 2019",
+    "talk": "Consuming a GraphQL APU in Vue"
+  },
+  {
+    "name": "Webinar: Introduction to React",
+    "date": "May 25 2019",
+    "talk": "Introduction to React and Parcel"
+  }
+]

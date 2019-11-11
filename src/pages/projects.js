@@ -2,11 +2,13 @@ import React from "react"
 import NavBar from "../components/navbar/"
 import { graphql } from "gatsby"
 import ProjectListing from "../components/projectListing"
+import PageHeadline from "../components/pageHeadline"
 
 const projectPage = ({ data }) => {
   return (
     <div>
       <NavBar />
+      <PageHeadline title="My Projects" />
       <ProjectListing data={data} />
     </div>
   )
