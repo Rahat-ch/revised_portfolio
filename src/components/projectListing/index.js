@@ -26,7 +26,7 @@ const ProjectListing = ({ data }) => {
 
         return (
           <div key={title} className={styles[`projectWrapper${align}`]}>
-            <div className={styles.contentWrapper}>
+            <div className={styles[`contentWrapper${align}`]}>
               <div className={styles.titleWrapper}>
                 <Link to={slug} className={styles.title}>
                   {title}
