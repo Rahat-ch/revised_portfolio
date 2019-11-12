@@ -3,7 +3,7 @@
   "private": true,
   "description": "Rahat Chowdhury Dev Portfolio",
   "version": "0.1.0",
-  "license": "MIT",
+  "license": "Gatsby is MIT but this website is not",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
