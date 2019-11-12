@@ -25,6 +25,7 @@ export const query = graphql`
           username
           password
           align
+          slug
           image {
             childImageSharp {
               fluid {

@@ -18,6 +18,8 @@
 .title {
   font-size: 30px;
   color: #5cdb95;
+  text-decoration: none;
+  margin-top: 30px;
 }
 
 .horizontal {
@@ -51,13 +53,11 @@
 .imageright {
   width: 352px;
   height: 400px;
-  margin-left: 195px;
 }
 
 .imageleft {
   width: 352px;
   height: 400px;
-  margin-right: 217px;
 }
 
 .projectFooter {
@@ -70,9 +70,25 @@
 }
 
 .projectLink {
-  font-size: 12px;
+  text-decoration: none;
   color: #ffffff;
-  margin-left: 10px;
+  font-size: 12px;
+  margin-left: 11px;
+  margin-top: 15px;
+}
+
+.projectLink:hover {
+  color: #5cdb95;
+}
+
+.imgLinkright {
+  width: fit-content;
+  margin-left: 195px;
+}
+
+.imgLinkleft {
+  width: fit-content;
+  margin-right: 217px;
 }
 
 .outerContainer {
