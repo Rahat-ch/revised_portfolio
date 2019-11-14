@@ -1,8 +1,8 @@
 .backgroundWrapper {
   position: absolute;
   transform: rotate(-45deg);
-  top: 75px;
-  right: -35px;
+  top: 60%;
+  left: 35%;
   z-index: -5;
 }
 
@@ -23,15 +23,16 @@
   opacity: 0.15;
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   .backgroundWrapper {
     top: 150px;
     right: 50px;
   }
-}
+} */
 
 @media (max-width: 425px) {
   .backgroundWrapper {
-    display: none;
+    top: 75%;
+    left: 15%;
   }
 }

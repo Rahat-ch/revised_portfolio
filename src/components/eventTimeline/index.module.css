@@ -53,3 +53,37 @@
   display: flex;
   position: relative;
 }
+
+@media (max-width: 769px) {
+  .timelineItem:nth-child(odd) {
+    margin-right: 330px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .timelineItem {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .timelineContainer {
+    margin-right: 0px;
+    width: 350px;
+  }
+  .timelineItem:nth-child(odd) {
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+  .timelineItem:nth-child(even) {
+    margin-left: 15px;
+  }
+  .timelineItem {
+    margin-top: 50px;
+  }
+  .eventName {
+    font-size: 25px;
+  }
+  .hr {
+    margin-top: 40px;
+  }
+}
