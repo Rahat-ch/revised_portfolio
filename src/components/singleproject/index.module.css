@@ -66,6 +66,38 @@
 }
 
 .projectImage {
-  width: 528px;
+  width: 50%;
   margin-left: 66px;
+}
+
+@media (max-width: 769px) {
+  .projectOuterContainter {
+    margin-left: 75px;
+    width: 760px;
+  }
+  .blurbWrapper {
+    width: 200px;
+  }
+  .projectImage {
+    margin-left: 50px;
+    width: 65%;
+  }
+}
+
+@media (max-width: 425px) {
+  .projectOuterContainter {
+    width: fit-content;
+  }
+  .projectImage {
+    display: none;
+  }
+  .blurbWrapper {
+    width: 325px;
+  }
+}
+
+@media (max-width: 375px) {
+  .projectOuterContainter {
+    margin-left: 35px;
+  }
 }
