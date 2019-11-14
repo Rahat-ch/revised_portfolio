@@ -1,7 +1,7 @@
 [
   {
     "name": "LitLab",
-    "slug": "projects/litlab",
+    "slug": "litlab",
     "image": "./projectimages/litlab.png",
     "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
     "username": "anotherdemo@gmail.com",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Remember The Mon",
-    "slug": "projects/rememberthemon",
+    "slug": "rememberthemon",
     "image": "./projectimages/pokeball.png",
     "description": "A memory game built with React. This is based on the popular Pokemon franchise and primarily revolves around changing state.",
     "username": "",
@@ -24,15 +24,15 @@
     "align": "left"
   },
   {
-    "name": "LitLab",
-    "slug": "projects/litlab2",
-    "image": "./projectimages/litlab.png",
-    "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
-    "username": "anotherdemo@gmail.com",
-    "password": "blahblah",
-    "tech": ["Handlebars", "CSS", "JQuery", "NodeJS", "MySQL", "PassportJS"],
-    "repo": "https://github.com/Rahat-ch/LitLab",
-    "demo": "https://litlab.herokuapp.com/",
+    "name": "Evie",
+    "slug": "evie",
+    "image": "./projectimages/evie.png",
+    "description": "Evie is a patient-friendly  concept chrome extenstion, designed to track the emotional values of websites visited.",
+    "username": "",
+    "password": "",
+    "tech": ["JavaScript", "Node JS", "Express", "NPM Sentiment"],
+    "repo": "https://github.com/Rahat-ch/evie",
+    "demo": "https://www.youtube.com/watch?v=yylfHb4sC-Q",
     "align": "right"
   }
 ]
