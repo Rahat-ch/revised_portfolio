@@ -25,11 +25,13 @@ const SingleProject = ({ projectProps }) => {
           </div>
           <div className={styles.blurbWrapper}>
             <p>{description}</p>
-            <div className={styles.login}>
-              <p>Demo Login Information</p>
-              <p>Username: {username}</p>
-              <p>password: {password}</p>
-            </div>
+            {username && (
+              <div className={styles.login}>
+                <p>Demo Login Information</p>
+                <p>Username: {username}</p>
+                <p>password: {password}</p>
+              </div>
+            )}
             <h2 className={styles.techHeder}>Technologies Used</h2>
             <ul className={styles.allTech}>
               {tech.map(technology => (
