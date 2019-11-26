@@ -8,6 +8,7 @@
 .timelineItem {
   width: fit-content;
   margin-left: 150px;
+  margin-bottom: 50px;
 }
 
 .timelineItem:nth-child(odd) {
@@ -16,6 +17,7 @@
   padding-left: 30px;
   padding-right: 0;
   margin-right: 300px;
+  margin-bottom: 50px;
 }
 
 .eventName {
