@@ -12,6 +12,7 @@ export const query = graphql`
       tech
       repo
       demo
+      npmPackage
       image {
         childImageSharp {
           fluid {

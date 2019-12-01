@@ -13,6 +13,7 @@ const SingleProject = ({ projectProps }) => {
     repo,
     demo,
     image,
+    npmPackage
   } = projectProps
   return (
     <>
@@ -63,6 +64,17 @@ const SingleProject = ({ projectProps }) => {
               View Code
             </a>
           </div>
+          {npmPackage && <div className={styles.repoWrapper}>
+            <hr className={styles.projectBottomHr} />
+            <a
+              className={styles.projectLinks}
+              href={npmPackage}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NPM Package
+            </a>
+          </div>}
         </div>
         <Img
           fluid={image.childImageSharp.fluid}

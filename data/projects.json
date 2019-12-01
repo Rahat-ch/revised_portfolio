@@ -1,12 +1,38 @@
 [
   {
+    "name": "GraphGoose",
+    "slug": "graphgoose",
+    "image": "./projectimages/graphgoose.png",
+    "description": "CLI tool for quick starting a GraphQL server with Node, Apollo-Express, Mongoose and MongoDB.",
+    "username": "",
+    "password": "",
+    "tech": [
+      "NodeJS",
+      "GraphQL",
+      "MongoDB",
+      "Mongoose",
+      "Apollo-Server-Express"
+    ],
+    "repo": "https://github.com/Rahat-ch/graphgoose",
+    "demo": "https://www.youtube.com/watch?v=SSzJO1V8nE8",
+    "npmPackage": "https://www.npmjs.com/package/graphgoose",
+    "align": "left"
+  },
+  {
     "name": "LitLab",
     "slug": "litlab",
     "image": "./projectimages/litlab.png",
     "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time!",
     "username": "anotherdemo@gmail.com",
     "password": "blahblah",
-    "tech": ["Handlebars", "CSS", "JQuery", "NodeJS", "MySQL", "PassportJS"],
+    "tech": [
+      "Handlebars",
+      "CSS",
+      "JQuery",
+      "NodeJS",
+      "MySQL",
+      "PassportJS"
+    ],
     "repo": "https://github.com/Rahat-ch/LitLab",
     "demo": "https://litlab.herokuapp.com/",
     "align": "right"
@@ -18,7 +44,10 @@
     "description": "A memory game built with React. This is based on the popular Pokemon franchise and primarily revolves around changing state.",
     "username": "",
     "password": "",
-    "tech": ["React", "CSS"],
+    "tech": [
+      "React",
+      "CSS"
+    ],
     "repo": "https://github.com/Rahat-ch/rememberthemon",
     "demo": "https://mysterious-dawn-93259.herokuapp.com/",
     "align": "left"
@@ -30,7 +59,12 @@
     "description": "Evie is a patient-friendly  concept chrome extenstion, designed to track the emotional values of websites visited.",
     "username": "",
     "password": "",
-    "tech": ["JavaScript", "Node JS", "Express", "NPM Sentiment"],
+    "tech": [
+      "JavaScript",
+      "Node JS",
+      "Express",
+      "NPM Sentiment"
+    ],
     "repo": "https://github.com/Rahat-ch/evie",
     "demo": "https://www.youtube.com/watch?v=yylfHb4sC-Q",
     "align": "right"
