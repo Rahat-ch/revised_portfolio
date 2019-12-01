@@ -16,7 +16,7 @@
     "repo": "https://github.com/Rahat-ch/graphgoose",
     "demo": "https://www.youtube.com/watch?v=SSzJO1V8nE8",
     "npmPackage": "https://www.npmjs.com/package/graphgoose",
-    "align": "left"
+    "align": "right"
   },
   {
     "name": "LitLab",
@@ -35,7 +35,7 @@
     ],
     "repo": "https://github.com/Rahat-ch/LitLab",
     "demo": "https://litlab.herokuapp.com/",
-    "align": "right"
+    "align": "left"
   },
   {
     "name": "Remember The Mon",
@@ -50,7 +50,7 @@
     ],
     "repo": "https://github.com/Rahat-ch/rememberthemon",
     "demo": "https://mysterious-dawn-93259.herokuapp.com/",
-    "align": "left"
+    "align": "right"
   },
   {
     "name": "Evie",
@@ -67,6 +67,6 @@
     ],
     "repo": "https://github.com/Rahat-ch/evie",
     "demo": "https://www.youtube.com/watch?v=yylfHb4sC-Q",
-    "align": "right"
+    "align": "left"
   }
 ]
