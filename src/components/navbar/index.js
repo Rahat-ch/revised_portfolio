@@ -36,7 +36,7 @@ const navbar = () => {
         ))}
         <a
           className={styles.navItem}
-          href="https://www.twitch.tv/rahatcodes"
+          href="https://www.rahatcodes.com"
           target="_blank"
           rel="noopener noreferrer"
         >

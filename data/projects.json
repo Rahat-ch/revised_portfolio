@@ -1,8 +1,27 @@
 [
   {
+    "name": "RahatCodes Landing Page",
+    "slug": "rahatcodes",
+    "image": "./projectimages/rahatcodes.png",
+    "description": "Landing page which contains the archives for all livestreams I have completed to date.",
+    "username": "",
+    "password": "",
+    "tech": [
+      "React",
+      "GatsbyJS",
+      "Contentful CMS",
+      "GraphQL",
+      "CSS Modules",
+      "Love"
+    ],
+    "repo": "https://github.com/Rahat-ch/rahatcodes",
+    "demo": "https://www.rahatcodes.com/",
+    "align": "right"
+  },
+  {
     "name": "GraphGoose",
     "slug": "graphgoose",
-    "image": "./projectimages/graphgoose.png",
+    "image": "./projectimages/graphgoose.jpg",
     "description": "CLI tool for quick starting a GraphQL server with Node, Apollo-Express, Mongoose and MongoDB.",
     "username": "",
     "password": "",
@@ -16,7 +35,7 @@
     "repo": "https://github.com/Rahat-ch/graphgoose",
     "demo": "https://www.youtube.com/watch?v=SSzJO1V8nE8",
     "npmPackage": "https://www.npmjs.com/package/graphgoose",
-    "align": "right"
+    "align": "left"
   },
   {
     "name": "LitLab",
@@ -35,21 +54,6 @@
     ],
     "repo": "https://github.com/Rahat-ch/LitLab",
     "demo": "https://litlab.herokuapp.com/",
-    "align": "left"
-  },
-  {
-    "name": "Remember The Mon",
-    "slug": "rememberthemon",
-    "image": "./projectimages/pokeball.png",
-    "description": "A memory game built with React. This is based on the popular Pokemon franchise and primarily revolves around changing state.",
-    "username": "",
-    "password": "",
-    "tech": [
-      "React",
-      "CSS"
-    ],
-    "repo": "https://github.com/Rahat-ch/rememberthemon",
-    "demo": "https://mysterious-dawn-93259.herokuapp.com/",
     "align": "right"
   },
   {
