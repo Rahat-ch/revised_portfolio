@@ -42,6 +42,14 @@ const navbar = () => {
         >
           Stream
         </a>
+        <a
+          className={styles.navItem}
+          href="https://www.tech4humans.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Podcast
+        </a>
       </div>
     </nav>
   )
