@@ -44,6 +44,15 @@
   align-content: right;
 }
 
+.watch {
+  color: #5cdb95;
+  font-size: 14px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  align-content: right;
+}
+
 .hr {
   width: 80px;
   margin-top: 45px;

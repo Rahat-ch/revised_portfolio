@@ -1,8 +1,43 @@
 [
   {
+    "name": "Virtual Coffee Lightning Talks",
+    "date": "November 20 2020",
+    "talk": "Keeping up your Mental Health during the Job search",
+    "watch": ""
+  },
+  {
+    "name": "Trilogy Bootcamp Alumni",
+    "date": "November 10 2020",
+    "talk": "Keeping up your Mental Health during the Job search",
+    "watch": "https://www.youtube.com/watch?v=humfcmFPyMk&feature=youtu.be&ab_channel=CareerServices"
+  },
+  {
+    "name": "Egghead Talks",
+    "date": "September 9 2020",
+    "talk": "Hip Hop Code and Mental Health",
+    "watch": "https://egghead.io/talks/egghead-hip-hop-code-and-mental-health"
+  },
+  {
+    "name": "Cascadia JS",
+    "date": "September 2 2020",
+    "talk": "Building Better Communities with Mental Health Support",
+    "watch": "https://2020.cascadiajs.com/speakers/rahat-chowdhury"
+  },
+  {
+    "name": "NYC Bootcampers Anonymous",
+    "date": "June 29 2020",
+    "talk": "Cathing Pokemon with React Query"
+  },
+  {
     "name": "Half Stack Online",
     "date": "May 22 2020",
     "talk": "R&B GraphQL"
+  },
+  {
+    "name": "Trilogy Bootcamp Alumni",
+    "date": "Aoril 7 2020",
+    "talk": "How your brand can help you land the job.",
+    "watch": "https://www.youtube.com/watch?v=g3xxpAP6QIM&ab_channel=CareerServices"
   },
   {
     "name": "VueNYC #28",

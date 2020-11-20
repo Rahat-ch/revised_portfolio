@@ -22,6 +22,7 @@ export const query = graphql`
           name
           date
           talk
+          watch
         }
       }
     }
